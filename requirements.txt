@@ -1,0 +1,12 @@
+streamlit
+tensorflow==2.12.0
+opencv-python-headless
+Pillow
+numpy==1.23.5
+reportlab
+fpdf2
+scikit-learn
+matplotlib
+seaborn
+h5py
+gdown
