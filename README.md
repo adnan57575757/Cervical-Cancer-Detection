@@ -63,13 +63,6 @@ Key dataset attributes:
 - Data split: 70% training, 15% validation, 15% test.
 - Data augmentation (rotation, flipping, zoom) was applied to enrich training data.
 
-## Features 🌟
-
-- **Multi-Model Approach**: Predictions from VGG16, ResNet50, and InceptionV3 are ensembled using soft voting.
-- **Explainability**: Grad-CAM highlights image areas (nucleus, cytoplasm) that influence predictions.
-- **Two-Phase Fine-Tuning**: First phase freezes the base model, training top layers; second phase unfreezes top layers for full fine-tuning.
-- **Class Balancing**: Class weights computed to mitigate class imbalance during training.
-- **Hyperparameter Tuning**: Learning rate, dropout, and layer fine-tuning range were systematically optimized.
 
 ## Data Processing 🧹
 
